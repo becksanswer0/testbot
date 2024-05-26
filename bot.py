@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from coinbase_commerce.client import Client
 from coinbase_commerce.api_resources import Charge
 
-API_TOKEN = 'YOUR_API_TOKEN'
+API_TOKEN = '7488509768:AAHCRKkm7FdqzRTxGP1njBq_nEaEzoTmpTw'
 COINBASE_API_KEY = 'YOUR_COINBASE_API_KEY'
 
 client = Client(api_key=COINBASE_API_KEY)
